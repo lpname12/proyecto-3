@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo SmartWatches</title>
+    
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        
+        body {
+            background-color: #f0f0f5
+        }
+
+        
+        header {
+            background-color: #111111
+            color: #ffffff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 14px;
+            color: #aaaaaa
+        }
+
+        
+        .contenedor-catalogo {
+            max-width: 1300px
+            margin: 40px auto
+            padding: 0 20px;
+            
+            
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+            gap: 25px
+        }
+
+        
+        .tarjeta {
+            background-color: #ffffff;
+            border-radius: 12px
+            overflow: hidden
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05)
+            text-align: center;
+            
+           
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        
+        .tarjeta img {
+            width: 100%;
+            height: auto;
+            background-color: #e9ecef
+            padding: 30px
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+      
+        .tarjeta h3 {
+            font-size: 15px;
+            color: #333333;
+            padding: 20px 0;
+            border-top: 1px solid #f0f0f0; 
+        }
+
+        
+        .tarjeta:hover {
+            transform: translateY(-8px); 
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15); 
+        }
+
+        
+        .tarjeta:hover img {
+            background-color: #d8dbe0;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <h1>Catálogo SmartWatches</h1>
+        <p></p>
+    </header>
+
+    
+    <main class="contenedor-catalogo">
+        
+        
+        <article class="tarjeta">
+            <img src="SmartWatch 1.jpg" alt="SmartWatch Modelo 01">
+            <h3>SmartWatch 1</h3>
+        </article>
+
+        
+        <article class="tarjeta">
+            <img src="SmartWatch 2.jpg" alt="SmartWatch Modelo 02">
+            <h3>SmartWatch 2</h3>
+        </article>
+
+        
+        <article class="tarjeta">
+            <img src="SmartWatch 3.jpg" alt="SmartWatch Modelo 03">
+            <h3>SmartWatch 3</h3>
+        </article>
+
+        
+        <article class="tarjeta">
+            <img src="SmartWatch 4.jpg" alt="SmartWatch Modelo 04">
+            <h3>SmartWatch 4</h3>
+        </article>
+
+        
+        <article class="tarjeta">
+            <img src="SmartWatch 5.jpg" alt="SmartWatch Modelo 05">
+            <h3>SmartWatch 5</h3>
+        </article>
+
+        
+        <article class="tarjeta">
+            <img src="SmartWatch 6.jpg" alt="SmartWatch Modelo 06">
+            <h3>SmartWatch 6</h3>
+        </article>
+
+        
+        <article class="tarjeta">
+            <img src="SmartWatch 7.jpg" alt="SmartWatch Modelo 07">
+            <h3>SmartWatch 7</h3>
+        </article>
+
+        
+        <article class="tarjeta">
+            <img src="SmartWatch 8.jpg" alt="SmartWatch Modelo 08">
+            <h3>SmartWatch 8</h3>
+        </article>
+
+        
+        <article class="tarjeta">
+            <img src="SmartWatch 9.jpg" alt="SmartWatch Modelo 09">
+            <h3>SmartWatch 9</h3>
+        </article>
+
+        
+        <article class="tarjeta">
+            <img src="SmartWatch 10.jpg" alt="SmartWatch Modelo 10">
+            <h3>SmartWatch 10</h3>
+        </article>
+
+    </main>
+
+</body>
+</html>
